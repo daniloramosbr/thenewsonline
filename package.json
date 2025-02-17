@@ -1,5 +1,4 @@
 {
-  "homepage": "https://daniloramosbr.github.io/thenews",
   "name": "newsletters",
   "private": true,
   "version": "0.0.0",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@ionic/react": "^8.4.3",
