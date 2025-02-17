@@ -12,12 +12,12 @@ React, TypeScript, Node, Express, Prisma, MongoDB, Axios, Vercel
 
 ## Passos para clonar
 
-cmd
-git clone https://github.com/daniloramosbr/thenews
-cd thenews
-code .
-npm install
-npm run dev
+cmd |
+git clone https://github.com/daniloramosbr/thenews |
+cd thenews |
+code . |
+npm install |
+npm run dev |
 
 ## 🔗 Links
 
