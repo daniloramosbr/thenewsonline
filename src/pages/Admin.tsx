@@ -54,7 +54,7 @@ export function Admin () {
         setRanking(response.data);
       } catch (error) {
         log.error('Erro ao obter ranking:', error);
-        setError('Erro ao obter ranking');
+        setError('Erro ao obter ranking')
       }
     };
 
