@@ -1,0 +1,6 @@
+{
+    "rewrites": [
+      { "source": "/thenews/**", "destination": "/index.html" }
+    ]
+  }
+  
