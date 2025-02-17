@@ -34,7 +34,7 @@ export default function LoginForm() {
   
         const res = await Api.ValidLogin(dataForm.email)               
         Cookies.set("user", res.data.token, { expires: 1 });          //salva cookie
-        navigate("/thenews/dashboard/");     //encaminha pra outra pagina
+        navigate("/thenewsonline/dashboard/");     //encaminha pra outra pagina
 
       
     } catch (error) {

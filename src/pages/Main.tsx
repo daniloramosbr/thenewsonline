@@ -46,7 +46,7 @@ export default function Main () {
 
     if (token == undefined) {   //só entra se tiver logado
      
-      navigate("/thenews/");
+      navigate("/thenewsonline/");
     }
    
     const fetchStreak = async () => {
@@ -94,12 +94,12 @@ export default function Main () {
     <div className="admin-button-container">
     <button onClick={()=> {
        Cookies.remove('user')
-         navigate("/thenews/");
+         navigate("/thenewsonline/");
       }} className="admin-button">SAIR <div>
         <IonIcon icon={logOutOutline} style={{ fontSize: "24px" }} /> </div>
      </button>
       <button onClick={()=> {
-         navigate("/thenews/admin");
+         navigate("/thenewsonline/admin");
       }} className="admin-button">ACESSAR ÁREA DE ADMIN
       </button>
     </div>

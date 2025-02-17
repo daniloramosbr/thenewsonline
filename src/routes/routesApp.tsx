@@ -8,9 +8,9 @@ export default function RoutesApp() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/thenews" element={<Login />} />
-        <Route path="/thenews/dashboard" element={<Main />} />
-        <Route path="/thenews/admin" element={<Admin />} />
+        <Route path="/thenewsonline" element={<Login />} />
+        <Route path="/thenewsonline/dashboard" element={<Main />} />
+        <Route path="/thenewsonline/admin" element={<Admin />} />
       </Routes>
     </BrowserRouter>
   )
