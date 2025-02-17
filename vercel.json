@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/thenews/**", "destination": "/index.html" }
+      { "source": "/thenews(?:/.*)?", "destination": "/index.html" }
     ]
   }
   
