@@ -10,6 +10,15 @@
 
 React, TypeScript, Node, Express, Prisma, MongoDB, Axios, Vercel
 
+## Passos para clonar
+
+cmd
+git clone https://github.com/daniloramosbr/thenews
+cd thenews
+code .
+npm install
+npm run dev
+
 ## 🔗 Links
 
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://daniloramosbr.github.io/portfolio/)
