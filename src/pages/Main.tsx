@@ -33,7 +33,7 @@ interface TokenInt {   //tipagem do token
 
 export default function Main () {
 
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   const [streak, setStreak] = useState<number>(0);
   const [history, setHistory] = useState<EmailMetrics[]>([]);
   const [error, setError] = useState<string | null>(null);
